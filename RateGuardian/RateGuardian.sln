@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RateGuardian", "RateGuardian\RateGuardian.csproj", "{0DF4D2B2-75F5-4B6F-B112-50A9C679FF19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleProject", "SampleProject\SampleProject.csproj", "{84D68ECC-A83A-4CF6-BC16-41EA62483A72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{AD351DEB-B3E5-413B-8A7A-94E5E83884A2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DF4D2B2-75F5-4B6F-B112-50A9C679FF19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DF4D2B2-75F5-4B6F-B112-50A9C679FF19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DF4D2B2-75F5-4B6F-B112-50A9C679FF19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DF4D2B2-75F5-4B6F-B112-50A9C679FF19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84D68ECC-A83A-4CF6-BC16-41EA62483A72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84D68ECC-A83A-4CF6-BC16-41EA62483A72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84D68ECC-A83A-4CF6-BC16-41EA62483A72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84D68ECC-A83A-4CF6-BC16-41EA62483A72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD351DEB-B3E5-413B-8A7A-94E5E83884A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD351DEB-B3E5-413B-8A7A-94E5E83884A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD351DEB-B3E5-413B-8A7A-94E5E83884A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD351DEB-B3E5-413B-8A7A-94E5E83884A2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
