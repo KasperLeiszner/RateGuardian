@@ -3,6 +3,7 @@
     <File Path="../.github/workflows/build-and-test.yml" />
     <File Path="../.gitignore" />
     <File Path="../README.md" />
+    <File Path="Directory.Build.props" />
   </Folder>
   <Folder Name="/samples/">
     <Project Path="samples/RateGuardian.Sample/RateGuardian.Sample.csproj" />
