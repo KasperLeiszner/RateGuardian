@@ -11,13 +11,13 @@ public static class InstallationExtension
     {
         services
             .AddSingleton<IInMemStorage, InMemStorage>()
-            .AddTransient<IpWhitelistMiddleware>();
-        
+            .AddTransient<RateGuardianMiddleware>();
+
         return services;
     }
-    
+
     public static IApplicationBuilder UseRateGuardian(this IApplicationBuilder builder)
     {
-        return builder.UseMiddleware<IpWhitelistMiddleware>();
+        return builder.UseMiddleware<RateGuardianMiddleware>();
     }
 }

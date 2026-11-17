@@ -1,0 +1,16 @@
+﻿<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="../.github/workflows/build-and-test.yml" />
+    <File Path="../.gitignore" />
+    <File Path="../README.md" />
+  </Folder>
+  <Folder Name="/samples/">
+    <Project Path="samples/RateGuardian.Sample/RateGuardian.Sample.csproj" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="RateGuardian/RateGuardian.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/RateGuardian.UnitTests/RateGuardian.UnitTests.csproj" />
+  </Folder>
+</Solution>

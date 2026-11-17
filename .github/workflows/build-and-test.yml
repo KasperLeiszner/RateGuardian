@@ -1,0 +1,31 @@
+name: build-and-test
+
+on:
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    name: build and test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Setup .NET Core SDK
+        uses: actions/setup-dotnet@v5
+        with:
+          dotnet-version: "10.0.x"
+
+      - name: Restore .NET solution
+        run: dotnet restore ./src/*.slnx
+
+      - name: Build .NET solution
+        run: dotnet build ./src/*.slnx
+
+      - name: Test .NET solution
+        run: dotnet test ./src/tests/RateGuardian.UnitTests/RateGuardian.UnitTests.csproj --no-build
